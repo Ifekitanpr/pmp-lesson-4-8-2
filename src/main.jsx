@@ -1,5 +1,5 @@
 import React,{useState}from'react';import{createRoot}from'react-dom/client';import{createPortal}from'react-dom';import{ArrowLeft,ArrowRight,Check,ChevronDown,Menu,Target,Volume2,VolumeX,X}from'lucide-react';import'./styles.css';
-const A='/assets/';
+const A='./assets/';
 const tabs=['The foundation','Right-sized plan','Timing','Six components','Exam lens'];
 const components=[
 ['Quality Standards','08-quality-standards.png','The specific standards the project will use — authority-created standards, general consensus standards, and applicable regulations. Answers, concretely, "against what benchmark are we actually measuring quality?"'],
